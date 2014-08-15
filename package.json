@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "crude-views",
+  "version": "0.0.0",
+  "main": "./lib/lib",
+  "description": "Views plugin for the Crude package",
+  "homepage": "https://github.com/thanpolas/crude-views",
+  "bugs": "https://github.com/thanpolas/crude-views/issues",
+  "author": {
+    "name": "Thanasis Polychronakis",
+    "email": "thanpolas@gmail.com",
+    "url": "https://github.com/thanpolas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanpolas/crude-views"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
+  },
+  "dependencies": {
+    "cip": "~0.2.5",
+    "bluebird": "~2.3.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "grunt-release": "~0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "load-grunt-tasks": "~0.6.0",
+    "mocha": "~1.21.4",
+    "grunt-mocha-test": "~0.11.0",
+    "grunt": "~0.4.5",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.3",
+    "grunt-cli": "^0.1.13"
+  }
+}

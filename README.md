@@ -2,6 +2,8 @@
 
 > Views plugin for [crude](https://github.com/thanpolas/crude).
 
+## Nothing to see here, not out yet...
+
 [![Build Status](https://secure.travis-ci.org/thanpolas/crude-views.png?branch=master)](http://travis-ci.org/thanpolas/crude-views)
 
 ## Install

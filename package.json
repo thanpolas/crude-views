@@ -28,6 +28,9 @@
     "bluebird": "~2.3.0",
     "lodash": "~2.4.1"
   },
+  "peerDependencies": {
+    "crude": "^0.6.0"
+  },
   "devDependencies": {
     "grunt-release": "~0.7.0",
     "grunt-contrib-jshint": "^0.10.0",
